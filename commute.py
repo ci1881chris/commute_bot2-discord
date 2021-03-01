@@ -8,7 +8,7 @@ achannel , token 값 수정해야됩니다
 '''
 
 client = discord.Client()
-token = '★봇토큰★'
+token = 'NzM3MTI3MTUxNDU0NjUwNDUw.Xx41KA.b7Dj36Jn7ZE2ENX8pYoUUFaYgIA'
 
 @client.event
 async def on_connect():
@@ -28,7 +28,7 @@ async def on_connect():
 
 @client.event
 async def on_message(message):
-    achannel = ★출퇴근 알림 채널ID★
+    achannel = 815775310929723442
 
 
     if message.content == '!명령어':
